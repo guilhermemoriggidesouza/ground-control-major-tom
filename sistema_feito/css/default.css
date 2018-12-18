@@ -1,0 +1,51 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'roboto';
+    font-size: 1.2em;
+}
+.container{
+    margin:auto;
+    width:90%;
+}
+.top-bar{
+    margin:auto;
+    width:100%;
+    height:60px;
+    background-color: #141414;
+    color:rgb(129, 129, 129);
+    line-height: 60px;
+}
+.player-controls{
+    float:left;
+}
+.player-controls span{
+    cursor: pointer;
+    padding: 0 5px;
+    -webkit-transition: all linear 0.2s;
+}
+.player-controls span:hover{
+    color:#eee;
+}
+.player-display{
+    float:right;
+}
+.player-current-track{
+    color:white;
+}
+.player{
+    float:left
+}
+.player-timeline {
+    float: left;
+    max-width: 30%;
+    width: 30%;
+    height: 10px;
+    margin-top: 25px;
+    background: rgb(129, 129, 129);    
+    margin-left: 10px;
+}
+.player-timeline-control{
+    height:10px;
+    background:rgb(255, 254, 254);
+}
